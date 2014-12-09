@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasnite-node --verbose"
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ctrembath/starting-node/issues"
   },
-  "homepage": "https://github.com/ctrembath/starting-node"
+  "homepage": "https://github.com/ctrembath/starting-node",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
